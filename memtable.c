@@ -13,7 +13,7 @@ struct MemTable *MemTable_new()
     memtable->record = NULL;
     return memtable;
 }
-
+// Major interfaces
 struct RBTNode *MemTable_get(const struct MemTable *memtable, char *key, size_t key_len)
 {
     return getKey(memtable->record, key, key_len);
