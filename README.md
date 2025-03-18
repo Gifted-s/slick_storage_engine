@@ -1,6 +1,6 @@
 # Slick storage engine
 
-An experimental LSM-Tree style database that splits the keys and the values to reduce write and space
+An experimental LSM-Tree database that splits the keys and the values to reduce write and space
 amplification. This project is a C implementation of: [WiscKey: Separating Keys from Values
 in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf) (Lu et al. 2017).
 
